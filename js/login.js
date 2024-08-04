@@ -12,7 +12,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     if (username === validUsername && password === validPassword) {
         
        
-        window.location.href = 'html/sever/Home.html';
+        window.location.href = 'indexx.html';
     } 
     
     else {
