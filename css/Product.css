@@ -1,0 +1,168 @@
+/* General Styles */
+body {
+    background: url(https://imageio.forbes.com/specials-images/imageserve/646620e497d9cb9527b1abc6/gta6/960x0.png?format=png&width=960);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-size: cover;
+    background: #ffffff;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0;
+}
+
+.main {
+    padding: 20px;
+}
+
+.hero {
+    background: #333;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.video-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.features, .product-list, .form {
+    padding: 20px;
+}
+
+.product-item {
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-picks {
+    background: rgb(224, 224, 224,0.0);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.top-picks h2 {
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #ffffff; 
+    margin: 20px 0; 
+    text-align: center; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    line-height: 1.2; 
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7); 
+    font-family: 'Arial', sans-serif; 
+}
+
+h2 {
+    font-size: 60px; 
+    font-weight: bold; 
+    color: #ffffff; 
+    margin-bottom: 20px; 
+    text-align: center; 
+    text-transform: uppercase; 
+    letter-spacing: 3px; 
+    line-height: 1.3; 
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); 
+    font-family: 'Arial', sans-serif; 
+    padding: 20px; 
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px; 
+}
+
+
+.top-picks-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.top-pick-item {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    text-align: center; 
+    transition: background-color 0.3s; 
+    width: 250px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin: 10px; 
+}
+
+.top-pick-item:hover {
+    background-color: rgba(0, 0, 0, 0.9); 
+}
+
+.top-pick-item img {
+    width: 100%; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+    margin-bottom: 10px; 
+}
+
+.top-pick-item h3 {
+    margin: 10px 0; 
+    font-size: 1.5em; 
+    color: #007bff; 
+}
+
+.top-pick-item p {
+    font-size: 1.2em; 
+    color: #666; 
+    margin: 5px 0; 
+}
+
+

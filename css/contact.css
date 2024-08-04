@@ -1,0 +1,85 @@
+body {
+    background: url(https://readwrite.com/wp-content/uploads/2024/03/gta-6-everything-we-know.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-size: cover;
+    background: #ffffff;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+.profile-section {
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-section h2 {
+    margin-bottom: 30px;
+    color: #333333;
+    font-size: 36px;
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details {
+    text-align: left;
+    width: 80%;
+}
+
+.profile-details h3 {
+    margin-bottom: 10px;
+    color: #007bff;
+    font-size: 28px;
+}
+
+.profile-details p {
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 18px;
+}
+
+.i {
+    font-size: 50px; 
+    color: #000; 
+}

@@ -12,16 +12,16 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     if (username === validUsername && password === validPassword) {
         
        
-        window.location.href = 'indexx.html';
+        window.location.href = 'html/sever/Home.html';
     } 
     
     else {
       Swal.fire({
         icon: "error",
         title: "Try again ",
-        text: "Username หรือ Password ไม่ถูกต้อง",
+        text: "Username or Password is incorrect.",
       });
         
-        errorMessage.textContent = 'Username หรือ Password ไม่ถูกต้อง';
+        errorMessage.textContent = 'Username or Password is incorrect.';
     }
 });
