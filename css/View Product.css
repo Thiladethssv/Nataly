@@ -1,0 +1,107 @@
+body {
+    background: url(https://shared.cdn.smp.schibsted.com/v2/images/91ac5024-2aec-4d79-bf6e-45f436decde5?fit=crop&format=auto&h=1067&w=1600&s=ac3e423d97f83b8937ec55128bd21aa290187734);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-size: cover;
+    background: #ffffff;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 50px;
+}
+
+nav a:hover {
+    text-decoration: underline; /* เส้นใต้เมื่อชี้เมาส์ */
+}
+
+.product-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.product-details {
+    display: flex;
+    max-width: 1200px;
+    background-color: #ffffff; /* พื้นหลังสีขาว */
+    border-radius: 10px; /* มุมโค้งมน */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* เงา */
+    padding: 20px;
+}
+
+.product-image img {
+    max-width: 100%; /* ขนาดรูปภาพเต็มคอนเทนเนอร์ */
+    border-radius: 10px; /* มุมโค้งมน */
+}
+
+.product-info {
+    margin-left: 20px;
+    max-width: 600px;
+}
+
+.product-info h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #007bff; /* สีฟ้าของราคา */
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.btn-controls {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #007bff; /* สีพื้นหลังปุ่ม */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* สีพื้นหลังเมื่อชี้เมาส์ */
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
